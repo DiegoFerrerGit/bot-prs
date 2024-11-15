@@ -1,0 +1,218 @@
+[debug] [2024-11-15T04:14:03.593Z] ----------------------------------------------------------------------
+[debug] [2024-11-15T04:14:03.594Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-11-15T04:14:03.594Z] CLI Version:   13.25.0
+[debug] [2024-11-15T04:14:03.594Z] Platform:      win32
+[debug] [2024-11-15T04:14:03.594Z] Node Version:  v18.20.4
+[debug] [2024-11-15T04:14:03.594Z] Time:          Fri Nov 15 2024 01:14:03 GMT-0300 (hora estándar de Argentina)
+[debug] [2024-11-15T04:14:03.594Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-15T04:14:03.651Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-15T04:14:03.651Z] > authorizing via signed-in user (diegoferrer.df@gmail.com)
+[info] i  emulators: Starting emulators: functions, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, extensions"}}
+[debug] [2024-11-15T04:14:03.654Z] Checked if tokens are valid: true, expires at: 1731647602163
+[debug] [2024-11-15T04:14:03.654Z] Checked if tokens are valid: true, expires at: 1731647602163
+[debug] [2024-11-15T04:14:03.654Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/prueba-2089f [none]
+[debug] [2024-11-15T04:14:03.960Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/prueba-2089f 200
+[debug] [2024-11-15T04:14:03.961Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/prueba-2089f {"projectId":"prueba-2089f","projectNumber":"140071279697","displayName":"prueba","name":"projects/prueba-2089f","resources":{"hostingSite":"prueba-2089f","realtimeDatabaseInstance":"prueba-2089f","storageBucket":"prueba-2089f.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_20059081-96ee-4e2b-a2f6-7efaa7e7888b"}
+[debug] [2024-11-15T04:14:03.966Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-15T04:14:03.966Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-11-15T04:14:03.968Z] [hub] writing locator at C:\Users\diego\AppData\Local\Temp\hub-prueba-2089f.json
+[debug] [2024-11-15T04:14:03.972Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2024-11-15T04:14:03.974Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-15T04:14:03.974Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-15T04:14:03.974Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-15T04:14:03.974Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2024-11-15T04:14:03.976Z] defaultcredentials: writing to file C:\Users\diego\AppData\Roaming\firebase\diegoferrer_df_gmail.com_application_default_credentials.json
+[debug] [2024-11-15T04:14:03.977Z] Setting GAC to C:\Users\diego\AppData\Roaming\firebase\diegoferrer_df_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\diego\\AppData\\Roaming\\firebase\\diegoferrer_df_gmail.com_application_default_credentials.json"}}
+[debug] [2024-11-15T04:14:03.978Z] Checked if tokens are valid: true, expires at: 1731647602163
+[debug] [2024-11-15T04:14:03.978Z] Checked if tokens are valid: true, expires at: 1731647602163
+[debug] [2024-11-15T04:14:03.978Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/prueba-2089f/adminSdkConfig [none]
+[debug] [2024-11-15T04:14:04.265Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/prueba-2089f/adminSdkConfig 200
+[debug] [2024-11-15T04:14:04.265Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/prueba-2089f/adminSdkConfig {"projectId":"prueba-2089f","databaseURL":"https://prueba-2089f.firebaseio.com","storageBucket":"prueba-2089f.firebasestorage.app","locationId":"us-central"}
+[debug] [2024-11-15T04:14:04.279Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-11-15T04:14:04.279Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-11-15T04:14:04.279Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\diego\\.cache\\firebase\\emulators\\ui-v1.14.0\\server\\server.mjs"],"optionalArgs":[],"joinArgs":false,"shell":false,"port":4000} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\diego\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.14.0\\\\server\\\\server.mjs\"],\"optionalArgs\":[],\"joinArgs\":false,\"shell\":false,\"port\":4000}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-11-15T04:14:04.359Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-11-15T04:14:04.360Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[debug] [2024-11-15T04:14:04.498Z] [Extensions] Connecting Extensions emulator, this is a noop.
+[info] i  functions: Watching "C:\Users\diego\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\diego\\functions\" for Cloud Functions..."}}
+[debug] [2024-11-15T04:14:04.503Z] Validating nodejs source
+[debug] [2024-11-15T04:14:04.964Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts .",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.10.0",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "firebase-admin": "^12.7.0",
+    "firebase-functions": "^6.0.1",
+    "ngrok": "^5.0.0-beta.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.4",
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^4.9.0"
+  },
+  "private": true
+}
+[debug] [2024-11-15T04:14:04.965Z] Building nodejs source
+[debug] [2024-11-15T04:14:04.965Z] Failed to find version of module node: reached end of search path C:\Users\diego\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2024-11-15T04:14:04.966Z] Failed to validate key FIREBASE_EMULATOR: Error: Key FIREBASE_EMULATOR starts with a reserved prefix (X_GOOGLE_ FIREBASE_ EXT_)
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load environment variables from .env. {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load environment variables from .env."}}
+[debug] [2024-11-15T04:14:04.970Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: connect ECONNREFUSED ::1:40001. If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────┬────────────────┬──────────────────────────────────┐
+│ Emulator   │ Host:Port      │ View in Emulator UI              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Functions  │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions  │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Extensions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/extensions │
+└────────────┴────────────────┴──────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+┌─────────────────────────┬───────────────┬─────────────────────┐
+│ Extension Instance Name │ Extension Ref │ View in Emulator UI │
+└─────────────────────────┴───────────────┴─────────────────────┘
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-11-15T04:14:14.157Z] [work-queue] {"queuedWork":["/prueba-2089f/us-central1/handleReactionAdded-2024-11-15T04:14:14.157Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-11-15T04:14:14.157Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/prueba-2089f/us-central1/handleReactionAdded-2024-11-15T04:14:14.157Z"],"workRunningCount":1}
+[debug] [2024-11-15T04:14:14.159Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-11-15T04:17:32.312Z] ----------------------------------------------------------------------
+[debug] [2024-11-15T04:17:32.313Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-11-15T04:17:32.313Z] CLI Version:   13.25.0
+[debug] [2024-11-15T04:17:32.314Z] Platform:      win32
+[debug] [2024-11-15T04:17:32.314Z] Node Version:  v18.20.4
+[debug] [2024-11-15T04:17:32.314Z] Time:          Fri Nov 15 2024 01:17:32 GMT-0300 (hora estándar de Argentina)
+[debug] [2024-11-15T04:17:32.314Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-15T04:17:32.387Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-15T04:17:32.387Z] > authorizing via signed-in user (diegoferrer.df@gmail.com)
+[info] i  emulators: Starting emulators: functions, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, extensions"}}
+[debug] [2024-11-15T04:17:32.390Z] Checked if tokens are valid: true, expires at: 1731647602163
+[debug] [2024-11-15T04:17:32.390Z] Checked if tokens are valid: true, expires at: 1731647602163
+[debug] [2024-11-15T04:17:32.391Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/prueba-2089f [none]
+[debug] [2024-11-15T04:17:32.696Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/prueba-2089f 200
+[debug] [2024-11-15T04:17:32.696Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/prueba-2089f {"projectId":"prueba-2089f","projectNumber":"140071279697","displayName":"prueba","name":"projects/prueba-2089f","resources":{"hostingSite":"prueba-2089f","realtimeDatabaseInstance":"prueba-2089f","storageBucket":"prueba-2089f.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_20059081-96ee-4e2b-a2f6-7efaa7e7888b"}
+[debug] [2024-11-15T04:17:32.701Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-15T04:17:32.702Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project prueba-2089f. This may result in unexpected behavior. 
+[debug] [2024-11-15T04:17:32.705Z] [hub] writing locator at C:\Users\diego\AppData\Local\Temp\hub-prueba-2089f.json
+[debug] [2024-11-15T04:17:32.708Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2024-11-15T04:17:32.710Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-15T04:17:32.710Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-15T04:17:32.710Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-15T04:17:32.710Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2024-11-15T04:17:32.712Z] defaultcredentials: writing to file C:\Users\diego\AppData\Roaming\firebase\diegoferrer_df_gmail.com_application_default_credentials.json
+[debug] [2024-11-15T04:17:32.713Z] Setting GAC to C:\Users\diego\AppData\Roaming\firebase\diegoferrer_df_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\diego\\AppData\\Roaming\\firebase\\diegoferrer_df_gmail.com_application_default_credentials.json"}}
+[debug] [2024-11-15T04:17:32.713Z] Checked if tokens are valid: true, expires at: 1731647602163
+[debug] [2024-11-15T04:17:32.713Z] Checked if tokens are valid: true, expires at: 1731647602163
+[debug] [2024-11-15T04:17:32.713Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/prueba-2089f/adminSdkConfig [none]
+[debug] [2024-11-15T04:17:33.112Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/prueba-2089f/adminSdkConfig 200
+[debug] [2024-11-15T04:17:33.112Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/prueba-2089f/adminSdkConfig {"projectId":"prueba-2089f","databaseURL":"https://prueba-2089f.firebaseio.com","storageBucket":"prueba-2089f.firebasestorage.app","locationId":"us-central"}
+[debug] [2024-11-15T04:17:33.124Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-11-15T04:17:33.125Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-11-15T04:17:33.125Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\diego\\.cache\\firebase\\emulators\\ui-v1.14.0\\server\\server.mjs"],"optionalArgs":[],"joinArgs":false,"shell":false,"port":4000} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\diego\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.14.0\\\\server\\\\server.mjs\"],\"optionalArgs\":[],\"joinArgs\":false,\"shell\":false,\"port\":4000}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-11-15T04:17:33.261Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-11-15T04:17:33.261Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[debug] [2024-11-15T04:17:33.342Z] [Extensions] Connecting Extensions emulator, this is a noop.
+[info] i  functions: Watching "C:\Users\diego\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\diego\\functions\" for Cloud Functions..."}}
+[debug] [2024-11-15T04:17:33.351Z] Validating nodejs source
+[debug] [2024-11-15T04:17:33.888Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts .",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.10.0",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "firebase-admin": "^12.7.0",
+    "firebase-functions": "^6.0.1",
+    "ngrok": "^5.0.0-beta.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.4",
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^4.9.0"
+  },
+  "private": true
+}
+[debug] [2024-11-15T04:17:33.889Z] Building nodejs source
+[debug] [2024-11-15T04:17:33.889Z] Failed to find version of module node: reached end of search path C:\Users\diego\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2024-11-15T04:17:33.893Z] Failed to validate key FIREBASE_EMULATOR: Error: Key FIREBASE_EMULATOR starts with a reserved prefix (X_GOOGLE_ FIREBASE_ EXT_)
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load environment variables from .env. {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load environment variables from .env."}}
+[debug] [2024-11-15T04:17:33.896Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: connect ECONNREFUSED ::1:40001. If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────┬────────────────┬──────────────────────────────────┐
+│ Emulator   │ Host:Port      │ View in Emulator UI              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Functions  │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions  │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Extensions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/extensions │
+└────────────┴────────────────┴──────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+┌─────────────────────────┬───────────────┬─────────────────────┐
+│ Extension Instance Name │ Extension Ref │ View in Emulator UI │
+└─────────────────────────┴───────────────┴─────────────────────┘
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-11-15T04:17:42.405Z] [work-queue] {"queuedWork":["/prueba-2089f/us-central1/handleReactionAdded-2024-11-15T04:17:42.405Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-11-15T04:17:42.405Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/prueba-2089f/us-central1/handleReactionAdded-2024-11-15T04:17:42.405Z"],"workRunningCount":1}
+[debug] [2024-11-15T04:17:42.406Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-11-15T04:18:42.053Z] [work-queue] {"queuedWork":["/prueba-2089f/us-central1/handleReactionAdded-2024-11-15T04:18:42.053Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-11-15T04:18:42.053Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/prueba-2089f/us-central1/handleReactionAdded-2024-11-15T04:18:42.053Z"],"workRunningCount":1}
+[debug] [2024-11-15T04:18:42.054Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}

@@ -17,6 +17,8 @@ export const handleReactionAdded = functions.https.onRequest(async (req, res) =>
         getTokenInfo(req)
         return
     } 
+
+    // este es coment
     
     // This its only for local environement
     if (req.body.challenge) {
