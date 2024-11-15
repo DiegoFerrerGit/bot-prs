@@ -17,3 +17,8 @@ export interface ISlackMessage {
     reactions?: Array<object>;
     parent_user_id?: string;
 }
+
+export interface IChannelsRemoteConfig{
+    name:string,
+    id:string
+}
